@@ -1,0 +1,83 @@
+.zmock_layout{
+    flex: 1;
+    padding: 5px;
+    .zmock_card{
+        width: 1200px;
+        margin:5px auto;
+        .zmock_card_body{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .zmock_card_logo{
+                height: 50px;
+                width: 50px;
+                line-height: 46px;
+                border: 1px solid #16a085;
+                border-radius: 4px;
+                color: #16a085;
+                font-size: 30px;
+                text-align: center;
+            }
+            .zmock_card_info{
+                width: 250px;
+                display: flex;
+                flex-direction: column;
+                margin: 0 10px;
+                .zmock_card_info_name{
+                    font-size: 14px;
+                }
+                .zmock_card_info_desc{
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+            .zmock_card_service{
+                flex: 1;
+                .zmock_card_service_item{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    background: #eeeffb;
+                    overflow: hidden;
+                    border-radius: 15px;
+                    margin:8px 0;
+                    .zmock_card_service_title{
+                        width: 100px;
+                        height: 30px;
+                        line-height:30px;
+                        text-align: center;
+                        background:#16a085;
+                        color: #ffffff;
+                    }
+                    .zmock_card_service_conetnt{
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+        .zmock_table_handle{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            button{
+                margin: 0 4px;
+            }
+        }
+        .zmock_table_header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .zmock_table_header_handle{
+                height: 32px;
+                width: 50px;
+                line-height: 30px;
+                font-size: 30px;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    color: #16a085;
+                }
+            }
+        }
+    }
+}

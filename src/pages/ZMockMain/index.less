@@ -1,0 +1,59 @@
+.zmock_content{
+    position: relative;
+    padding: 8px 16px;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .zmock_empty{
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        left:50%;
+        top: 50%;
+        margin-left:-100px;
+        margin-top: -100px;
+    }
+    .project_col_item{
+        margin:8px 0;
+    }
+    .project_item{
+        .project_name{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .project_name_logo{
+                font-size:24px;
+                color:#16a085;
+            }
+            .project_name_text{
+                margin-left: 5px;
+                color:#16a085;
+                font-weight: bold;
+            }
+        }
+        .project_desc{
+            height: 100px;
+            overflow: hidden;
+            font-size: 12px;
+        }
+        .project_actions{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            border-top: 1px solid #f0f0f0;
+            margin:0 -12px -12px;
+            padding:5px 0;
+            .project_actions_item{
+                flex:1;
+                text-align: center;
+                border-left: 1px solid #f0f0f0;
+                margin-left: -1px;
+                font-size: 16px;
+                &:hover{
+                    cursor: pointer;
+                    color: #16a085;
+                }
+            }
+        }
+    }
+}
