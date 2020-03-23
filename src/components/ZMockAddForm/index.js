@@ -16,8 +16,8 @@ export default (props)=>{
     const onFinish = () => {
         form.validateFields().then((values)=>{
             props.createProject(values)
+            doHide()
         })
-        doHide()
     }
     
     const doHide = ()=>{
